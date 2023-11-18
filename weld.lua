@@ -30,5 +30,4 @@ for i, part in pairs(objects) do
   local WeldConstraint = Instance.new("WeldConstraint", part)
   WeldConstraint.Part0 = part
   WeldConstraint.Part1 = objects[i+1]	
-  count+=1
 end
